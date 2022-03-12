@@ -1,0 +1,11 @@
+export PATH=/home/mia/.local/bin:$PATH
+. "$HOME/.cargo/env"
+DEVKITPRO=/opt/devkitpro
+DEVKITARM=/opt/devkitpro/devkitARM
+DEVKITPPC=/opt/devkitpro/devkitPPC
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+export PATH=/home/mia/.local/bin:$PATH
+eval "$(pyenv init -)"
+MANGOHUD=1

@@ -1,0 +1,14 @@
+# Output into folder named after series
+-o ./%(title)s.%(ext)s
+
+# Pull ~/.netrc
+--netrc
+
+# pull yt cookies
+--cookies /home/mia/.config/youtube-dl/yt-cookies.txt
+
+# Remux to mkv
+--remux-video mkv
+
+# Metadata sutff (used for Plex metadata)
+--write-thumbnail

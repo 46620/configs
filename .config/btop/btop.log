@@ -1,0 +1,842 @@
+
+2021/12/02 (20:23:20) | ===> btop++ v.1.1.2
+2021/12/02 (20:23:20) | INFO: Logger set to INFO
+2021/12/02 (20:23:21) | INFO: Logger set to INFO
+2021/12/02 (20:23:21) | INFO: Logger set to DEBUG
+2021/12/02 (20:23:22) | INFO: Logger set to INFO
+2021/12/02 (20:23:24) | INFO: Logger set to INFO
+2021/12/02 (20:23:24) | INFO: Logger set to DEBUG
+2021/12/02 (20:23:24) | INFO: Logger set to INFO
+2021/12/02 (20:23:25) | INFO: Logger set to DEBUG
+2021/12/02 (20:23:25) | INFO: Logger set to DEBUG
+2021/12/02 (20:29:54) | DEBUG: Writing new config file
+2021/12/02 (20:29:54) | INFO: Quitting! Runtime: 00:07:56
+
+2021/12/03 (10:05:10) | ===> btop++ v.1.1.2
+2021/12/03 (10:05:10) | INFO: Logger set to DEBUG
+2021/12/03 (10:05:10) | DEBUG: Using locale en_US.UTF-8
+2021/12/03 (10:05:10) | INFO: Running on /dev/pts/2
+2021/12/03 (10:05:10) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/03 (10:08:07) | DEBUG: Writing new config file
+2021/12/03 (10:08:07) | INFO: Quitting! Runtime: 00:02:57
+
+2021/12/03 (10:21:20) | ===> btop++ v.1.1.2
+2021/12/03 (10:21:20) | INFO: Logger set to DEBUG
+2021/12/03 (10:21:20) | DEBUG: Using locale en_US.UTF-8
+2021/12/03 (10:21:20) | INFO: Running on /dev/pts/1
+2021/12/03 (10:21:20) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/03 (10:22:29) | INFO: Quitting! Runtime: 00:01:09
+
+2021/12/03 (22:05:48) | ===> btop++ v.1.1.2
+2021/12/03 (22:05:48) | INFO: Logger set to DEBUG
+2021/12/03 (22:05:48) | DEBUG: Using locale en_US.UTF-8
+2021/12/03 (22:05:48) | INFO: Running on /dev/pts/1
+2021/12/03 (22:05:48) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/03 (22:15:40) | DEBUG: Writing new config file
+2021/12/03 (22:15:40) | INFO: Quitting! Runtime: 00:09:52
+
+2021/12/04 (20:25:19) | ===> btop++ v.1.1.2
+2021/12/04 (20:25:19) | INFO: Logger set to DEBUG
+2021/12/04 (20:25:19) | DEBUG: Using locale en_US.UTF-8
+2021/12/04 (20:25:19) | INFO: Running on /dev/pts/2
+2021/12/04 (20:25:19) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2021/12/05 (10:05:24) | ===> btop++ v.1.1.2
+2021/12/05 (10:05:24) | INFO: Logger set to DEBUG
+2021/12/05 (10:05:24) | DEBUG: Using locale en_US.UTF-8
+2021/12/05 (10:05:24) | INFO: Running on /dev/pts/2
+2021/12/05 (10:05:24) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/05 (10:05:29) | INFO: Quitting! Runtime: 00:00:05
+
+2021/12/05 (10:05:32) | ===> btop++ v.1.1.2
+2021/12/05 (10:05:32) | INFO: Logger set to DEBUG
+2021/12/05 (10:05:32) | DEBUG: Using locale en_US.UTF-8
+2021/12/05 (10:05:32) | INFO: Running on /dev/pts/2
+2021/12/05 (10:05:32) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/05 (10:07:07) | INFO: Quitting! Runtime: 00:01:35
+
+2021/12/05 (10:07:49) | ===> btop++ v.1.1.2
+2021/12/05 (10:07:49) | INFO: Logger set to DEBUG
+2021/12/05 (10:07:49) | DEBUG: Using locale en_US.UTF-8
+2021/12/05 (10:07:49) | INFO: Running on /dev/pts/2
+2021/12/05 (10:07:49) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2021/12/06 (20:49:34) | ===> btop++ v.1.1.2
+2021/12/06 (20:49:34) | INFO: Logger set to DEBUG
+2021/12/06 (20:49:34) | DEBUG: Using locale en_US.UTF-8
+2021/12/06 (20:49:34) | INFO: Running on /dev/pts/2
+2021/12/06 (20:49:34) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/06 (20:49:41) | INFO: Quitting! Runtime: 00:00:07
+
+2021/12/06 (21:26:55) | ===> btop++ v.1.1.2
+2021/12/06 (21:26:55) | INFO: Logger set to DEBUG
+2021/12/06 (21:26:55) | DEBUG: Using locale en_US.UTF-8
+2021/12/06 (21:26:55) | INFO: Running on /dev/pts/2
+2021/12/06 (21:26:55) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/06 (21:27:06) | DEBUG: Writing new config file
+2021/12/06 (21:27:06) | INFO: Quitting! Runtime: 00:00:11
+
+2021/12/09 (14:38:47) | ===> btop++ v.1.1.2
+2021/12/09 (14:38:47) | INFO: Logger set to DEBUG
+2021/12/09 (14:38:47) | DEBUG: Using locale en_US.UTF-8
+2021/12/09 (14:38:47) | INFO: Running on /dev/pts/3
+2021/12/09 (14:38:47) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/09 (14:46:52) | INFO: Quitting! Runtime: 00:08:05
+
+2021/12/11 (16:29:41) | ===> btop++ v.1.1.2
+2021/12/11 (16:29:41) | INFO: Logger set to DEBUG
+2021/12/11 (16:29:41) | DEBUG: Using locale en_US.UTF-8
+2021/12/11 (16:29:41) | INFO: Running on /dev/pts/2
+2021/12/11 (16:29:41) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/11 (16:30:07) | INFO: Quitting! Runtime: 00:00:26
+
+2021/12/11 (23:31:10) | ===> btop++ v.1.1.3
+2021/12/11 (23:31:10) | INFO: Logger set to DEBUG
+2021/12/11 (23:31:10) | DEBUG: Using locale en_US.UTF-8
+2021/12/11 (23:31:10) | INFO: Running on /dev/pts/3
+2021/12/11 (23:31:10) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/11 (23:39:52) | DEBUG: Writing new config file
+2021/12/11 (23:39:52) | INFO: Quitting! Runtime: 00:08:42
+
+2021/12/11 (23:49:21) | ===> btop++ v.1.1.3
+2021/12/11 (23:49:21) | INFO: Logger set to DEBUG
+2021/12/11 (23:49:21) | DEBUG: Using locale en_US.UTF-8
+2021/12/11 (23:49:21) | INFO: Running on /dev/pts/3
+2021/12/11 (23:49:21) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/12 (00:21:05) | DEBUG: Writing new config file
+2021/12/12 (00:21:05) | INFO: Quitting! Runtime: 00:31:44
+
+2021/12/12 (00:37:32) | ===> btop++ v.1.1.3
+2021/12/12 (00:37:32) | INFO: Logger set to DEBUG
+2021/12/12 (00:37:32) | DEBUG: Using locale en_US.UTF-8
+2021/12/12 (00:37:32) | INFO: Running on /dev/pts/4
+2021/12/12 (00:37:32) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2021/12/12 (11:18:46) | ===> btop++ v.1.1.3
+2021/12/12 (11:18:46) | INFO: Logger set to DEBUG
+2021/12/12 (11:18:46) | DEBUG: Using locale en_US.UTF-8
+2021/12/12 (11:18:46) | INFO: Running on /dev/pts/3
+2021/12/12 (11:18:46) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/12 (11:19:25) | INFO: Quitting! Runtime: 00:00:39
+
+2021/12/12 (16:53:37) | ===> btop++ v.1.1.3
+2021/12/12 (16:53:37) | INFO: Logger set to DEBUG
+2021/12/12 (16:53:37) | DEBUG: Using locale en_US.UTF-8
+2021/12/12 (16:53:37) | INFO: Running on /dev/pts/1
+2021/12/12 (16:53:37) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2021/12/16 (22:38:08) | ===> btop++ v.1.1.3
+2021/12/16 (22:38:08) | INFO: Logger set to DEBUG
+2021/12/16 (22:38:08) | DEBUG: Using locale en_US.UTF-8
+2021/12/16 (22:38:08) | INFO: Running on /dev/pts/1
+2021/12/16 (22:38:08) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/17 (00:17:53) | INFO: Quitting! Runtime: 01:39:45
+
+2021/12/24 (22:03:36) | ===> btop++ v.1.1.3
+2021/12/24 (22:03:36) | INFO: Logger set to DEBUG
+2021/12/24 (22:03:36) | DEBUG: Using locale en_US.UTF-8
+2021/12/24 (22:03:36) | INFO: Running on /dev/pts/1
+2021/12/24 (22:03:36) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2021/12/24 (22:04:29) | ===> btop++ v.1.1.3
+2021/12/24 (22:04:29) | INFO: Logger set to DEBUG
+2021/12/24 (22:04:29) | DEBUG: Using locale en_US.UTF-8
+2021/12/24 (22:04:29) | INFO: Running on /dev/pts/1
+2021/12/24 (22:04:29) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/24 (22:04:31) | INFO: Quitting! Runtime: 00:00:02
+
+2021/12/25 (01:29:42) | ===> btop++ v.1.1.3
+2021/12/25 (01:29:42) | INFO: Logger set to DEBUG
+2021/12/25 (01:29:42) | DEBUG: Using locale en_US.UTF-8
+2021/12/25 (01:29:42) | INFO: Running on /dev/pts/2
+2021/12/25 (01:29:42) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/25 (01:50:18) | INFO: Quitting! Runtime: 00:20:36
+
+2021/12/25 (03:42:32) | ===> btop++ v.1.1.3
+2021/12/25 (03:42:32) | INFO: Logger set to DEBUG
+2021/12/25 (03:42:32) | DEBUG: Using locale en_US.UTF-8
+2021/12/25 (03:42:32) | INFO: Running on /dev/pts/2
+2021/12/25 (03:42:32) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/25 (03:42:36) | INFO: Quitting! Runtime: 00:00:04
+
+2021/12/25 (13:18:08) | ===> btop++ v.1.1.3
+2021/12/25 (13:18:08) | INFO: Logger set to DEBUG
+2021/12/25 (13:18:08) | DEBUG: Using locale en_US.UTF-8
+2021/12/25 (13:18:08) | INFO: Running on /dev/pts/2
+2021/12/25 (13:18:08) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/25 (13:18:47) | INFO: Quitting! Runtime: 00:00:39
+
+2021/12/25 (20:30:34) | ===> btop++ v.1.1.3
+2021/12/25 (20:30:34) | INFO: Logger set to DEBUG
+2021/12/25 (20:30:34) | DEBUG: Using locale en_US.UTF-8
+2021/12/25 (20:30:34) | INFO: Running on /dev/pts/2
+2021/12/25 (20:30:34) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/25 (20:30:39) | INFO: Quitting! Runtime: 00:00:05
+
+2021/12/27 (19:51:13) | ===> btop++ v.1.1.3
+2021/12/27 (19:51:13) | INFO: Logger set to DEBUG
+2021/12/27 (19:51:13) | DEBUG: Using locale en_US.UTF-8
+2021/12/27 (19:51:13) | INFO: Running on /dev/pts/1
+2021/12/27 (19:51:13) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/27 (20:12:27) | DEBUG: Writing new config file
+2021/12/27 (20:12:27) | INFO: Quitting! Runtime: 00:21:15
+
+2021/12/27 (20:20:18) | ===> btop++ v.1.1.3
+2021/12/27 (20:20:18) | INFO: Logger set to DEBUG
+2021/12/27 (20:20:18) | DEBUG: Using locale en_US.UTF-8
+2021/12/27 (20:20:18) | INFO: Running on /dev/pts/1
+2021/12/27 (20:20:18) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2021/12/27 (21:52:04) | ===> btop++ v.1.1.3
+2021/12/27 (21:52:04) | INFO: Logger set to DEBUG
+2021/12/27 (21:52:04) | DEBUG: Using locale en_US.UTF-8
+2021/12/27 (21:52:04) | INFO: Running on /dev/pts/2
+2021/12/27 (21:52:04) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/28 (00:10:50) | INFO: Quitting! Runtime: 02:18:46
+
+2021/12/30 (13:15:57) | ===> btop++ v.1.1.4
+2021/12/30 (13:15:57) | INFO: Logger set to DEBUG
+2021/12/30 (13:15:57) | DEBUG: Using locale en_US.UTF-8
+2021/12/30 (13:15:57) | INFO: Running on /dev/pts/3
+2021/12/30 (13:15:57) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/30 (13:16:12) | DEBUG: Writing new config file
+2021/12/30 (13:16:12) | INFO: Quitting! Runtime: 00:00:15
+
+2021/12/30 (13:28:17) | ===> btop++ v.1.1.4
+2021/12/30 (13:28:17) | INFO: Logger set to DEBUG
+2021/12/30 (13:28:17) | DEBUG: Using locale en_US.UTF-8
+2021/12/30 (13:28:17) | INFO: Running on /dev/pts/2
+2021/12/30 (13:28:17) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/30 (13:46:04) | INFO: Quitting! Runtime: 00:17:47
+
+2021/12/30 (14:38:14) | ===> btop++ v.1.1.4
+2021/12/30 (14:38:14) | INFO: Logger set to DEBUG
+2021/12/30 (14:38:14) | DEBUG: Using locale en_US.UTF-8
+2021/12/30 (14:38:14) | INFO: Running on /dev/pts/2
+2021/12/30 (14:38:14) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/30 (16:27:54) | INFO: Quitting! Runtime: 01:49:40
+
+2021/12/30 (17:05:53) | ===> btop++ v.1.1.4
+2021/12/30 (17:05:53) | INFO: Logger set to DEBUG
+2021/12/30 (17:05:53) | DEBUG: Using locale en_US.UTF-8
+2021/12/30 (17:05:53) | INFO: Running on /dev/pts/3
+2021/12/30 (17:05:53) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/30 (19:53:40) | INFO: Quitting! Runtime: 02:47:47
+
+2021/12/30 (20:46:25) | ===> btop++ v.1.1.4
+2021/12/30 (20:46:25) | INFO: Logger set to DEBUG
+2021/12/30 (20:46:25) | DEBUG: Using locale en_US.UTF-8
+2021/12/30 (20:46:25) | INFO: Running on /dev/pts/3
+2021/12/30 (20:46:25) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/30 (20:47:25) | INFO: Quitting! Runtime: 00:01:00
+
+2021/12/30 (21:11:33) | ===> btop++ v.1.1.4
+2021/12/30 (21:11:33) | INFO: Logger set to DEBUG
+2021/12/30 (21:11:33) | DEBUG: Using locale en_US.UTF-8
+2021/12/30 (21:11:33) | INFO: Running on /dev/pts/3
+2021/12/30 (21:11:33) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2021/12/30 (22:11:00) | ===> btop++ v.1.1.4
+2021/12/30 (22:11:00) | INFO: Logger set to DEBUG
+2021/12/30 (22:11:00) | DEBUG: Using locale en_US.UTF-8
+2021/12/30 (22:11:00) | INFO: Running on /dev/pts/1
+2021/12/30 (22:11:00) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/31 (10:50:03) | INFO: Quitting! Runtime: 12:39:03
+
+2021/12/31 (21:41:46) | ===> btop++ v.1.1.4
+2021/12/31 (21:41:46) | INFO: Logger set to DEBUG
+2021/12/31 (21:41:46) | DEBUG: Using locale en_US.UTF-8
+2021/12/31 (21:41:46) | INFO: Running on /dev/pts/2
+2021/12/31 (21:41:46) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2021/12/31 (21:42:22) | INFO: Quitting! Runtime: 00:00:36
+
+2022/01/02 (12:24:06) | ===> btop++ v.1.1.4
+2022/01/02 (12:24:06) | INFO: Logger set to DEBUG
+2022/01/02 (12:24:06) | DEBUG: Using locale en_US.UTF-8
+2022/01/02 (12:24:06) | INFO: Running on /dev/pts/4
+2022/01/02 (12:24:06) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/02 (23:24:48) | INFO: Quitting! Runtime: 11:00:42
+
+2022/01/03 (20:33:37) | ===> btop++ v.1.1.4
+2022/01/03 (20:33:37) | INFO: Logger set to DEBUG
+2022/01/03 (20:33:37) | DEBUG: Using locale en_US.UTF-8
+2022/01/03 (20:33:37) | INFO: Running on /dev/pts/4
+2022/01/03 (20:33:37) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/04 (17:23:05) | ===> btop++ v.1.1.4
+2022/01/04 (17:23:05) | INFO: Logger set to DEBUG
+2022/01/04 (17:23:05) | DEBUG: Using locale en_US.UTF-8
+2022/01/04 (17:23:05) | INFO: Running on /dev/pts/1
+2022/01/04 (17:23:05) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/05 (15:38:14) | ===> btop++ v.1.1.4
+2022/01/05 (15:38:14) | INFO: Logger set to DEBUG
+2022/01/05 (15:38:14) | DEBUG: Using locale en_US.UTF-8
+2022/01/05 (15:38:14) | INFO: Running on /dev/pts/3
+2022/01/05 (15:38:14) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/05 (21:04:37) | INFO: Quitting! Runtime: 05:26:23
+
+2022/01/05 (21:05:41) | ===> btop++ v.1.1.4
+2022/01/05 (21:05:41) | INFO: Logger set to DEBUG
+2022/01/05 (21:05:41) | DEBUG: Using locale en_US.UTF-8
+2022/01/05 (21:05:41) | INFO: Running on /dev/pts/4
+2022/01/05 (21:05:41) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/05 (21:06:37) | INFO: Quitting! Runtime: 00:00:56
+
+2022/01/05 (21:06:38) | ===> btop++ v.1.1.4
+2022/01/05 (21:06:38) | INFO: Logger set to DEBUG
+2022/01/05 (21:06:38) | DEBUG: Using locale en_US.UTF-8
+2022/01/05 (21:06:38) | INFO: Running on /dev/pts/4
+2022/01/05 (21:06:38) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/05 (23:32:38) | INFO: Quitting! Runtime: 02:26:00
+
+2022/01/05 (23:32:39) | ===> btop++ v.1.1.4
+2022/01/05 (23:32:39) | INFO: Logger set to DEBUG
+2022/01/05 (23:32:39) | DEBUG: Using locale en_US.UTF-8
+2022/01/05 (23:32:39) | INFO: Running on /dev/pts/4
+2022/01/05 (23:32:39) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/05 (23:34:51) | INFO: Quitting! Runtime: 00:02:12
+
+2022/01/05 (23:34:51) | ===> btop++ v.1.1.4
+2022/01/05 (23:34:51) | INFO: Logger set to DEBUG
+2022/01/05 (23:34:51) | DEBUG: Using locale en_US.UTF-8
+2022/01/05 (23:34:51) | INFO: Running on /dev/pts/4
+2022/01/05 (23:34:51) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/06 (00:34:48) | INFO: Quitting! Runtime: 00:59:57
+
+2022/01/06 (00:34:52) | ===> btop++ v.1.1.4
+2022/01/06 (00:34:52) | INFO: Logger set to DEBUG
+2022/01/06 (00:34:52) | DEBUG: Using locale en_US.UTF-8
+2022/01/06 (00:34:52) | INFO: Running on /dev/pts/2
+2022/01/06 (00:34:53) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/06 (02:23:10) | ===> btop++ v.1.1.4
+2022/01/06 (02:23:10) | INFO: Logger set to DEBUG
+2022/01/06 (02:23:10) | DEBUG: Using locale en_US.UTF-8
+2022/01/06 (02:23:10) | INFO: Running on /dev/pts/4
+2022/01/06 (02:23:10) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/06 (02:23:17) | INFO: Quitting! Runtime: 01:48:25
+
+2022/01/09 (13:15:43) | ===> btop++ v.1.1.4
+2022/01/09 (13:15:43) | INFO: Logger set to DEBUG
+2022/01/09 (13:15:43) | DEBUG: Using locale en_US.UTF-8
+2022/01/09 (13:15:43) | INFO: Running on /dev/pts/2
+2022/01/09 (13:15:43) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/09 (19:02:32) | ===> btop++ v.1.1.4
+2022/01/09 (19:02:32) | INFO: Logger set to DEBUG
+2022/01/09 (19:02:32) | DEBUG: Using locale en_US.UTF-8
+2022/01/09 (19:02:32) | INFO: Running on /dev/pts/3
+2022/01/09 (19:02:32) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/10 (19:15:06) | ===> btop++ v.1.1.4
+2022/01/10 (19:15:06) | INFO: Logger set to DEBUG
+2022/01/10 (19:15:06) | DEBUG: Using locale en_US.UTF-8
+2022/01/10 (19:15:06) | INFO: Running on /dev/pts/4
+2022/01/10 (19:15:06) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/10 (20:59:19) | ===> btop++ v.1.1.4
+2022/01/10 (20:59:19) | INFO: Logger set to DEBUG
+2022/01/10 (20:59:19) | DEBUG: Using locale en_US.UTF-8
+2022/01/10 (20:59:19) | INFO: Running on /dev/pts/1
+2022/01/10 (20:59:19) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/11 (13:20:54) | INFO: Quitting! Runtime: 16:21:35
+
+2022/01/13 (23:00:02) | ===> btop++ v.1.1.4
+2022/01/13 (23:00:02) | INFO: Logger set to DEBUG
+2022/01/13 (23:00:02) | DEBUG: Using locale en_US.UTF-8
+2022/01/13 (23:00:02) | INFO: Running on /dev/pts/3
+2022/01/13 (23:00:03) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/14 (00:22:13) | ===> btop++ v.1.1.4
+2022/01/14 (00:22:13) | INFO: Logger set to DEBUG
+2022/01/14 (00:22:13) | DEBUG: Using locale en_US.UTF-8
+2022/01/14 (00:22:13) | INFO: Running on /dev/pts/2
+2022/01/14 (00:22:13) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/14 (17:42:16) | ===> btop++ v.1.1.4
+2022/01/14 (17:42:16) | INFO: Logger set to DEBUG
+2022/01/14 (17:42:16) | DEBUG: Using locale en_US.UTF-8
+2022/01/14 (17:42:16) | INFO: Running on /dev/pts/1
+2022/01/14 (17:42:16) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/14 (19:48:53) | INFO: Quitting! Runtime: 19:26:40
+
+2022/01/14 (20:08:13) | ===> btop++ v.1.1.4
+2022/01/14 (20:08:13) | INFO: Logger set to DEBUG
+2022/01/14 (20:08:13) | DEBUG: Using locale en_US.UTF-8
+2022/01/14 (20:08:13) | INFO: Running on /dev/pts/3
+2022/01/14 (20:08:13) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/14 (20:08:20) | INFO: Quitting! Runtime: 00:00:07
+
+2022/01/14 (20:09:41) | ===> btop++ v.1.1.4
+2022/01/14 (20:09:41) | INFO: Logger set to DEBUG
+2022/01/14 (20:09:41) | DEBUG: Using locale en_US.UTF-8
+2022/01/14 (20:09:41) | INFO: Running on /dev/pts/2
+2022/01/14 (20:09:41) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/14 (21:25:20) | DEBUG: Writing new config file
+2022/01/14 (21:25:20) | INFO: Quitting! Runtime: 01:15:39
+
+2022/01/16 (14:05:13) | ===> btop++ v.1.1.4
+2022/01/16 (14:05:13) | INFO: Logger set to DEBUG
+2022/01/16 (14:05:13) | DEBUG: Using locale en_US.UTF-8
+2022/01/16 (14:05:13) | INFO: Running on /dev/pts/3
+2022/01/16 (14:05:13) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/16 (16:08:45) | ===> btop++ v.1.1.4
+2022/01/16 (16:08:45) | INFO: Logger set to DEBUG
+2022/01/16 (16:08:45) | DEBUG: Using locale en_US.UTF-8
+2022/01/16 (16:08:45) | INFO: Running on /dev/pts/2
+2022/01/16 (16:08:45) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/16 (16:34:34) | ===> btop++ v.1.1.4
+2022/01/16 (16:34:34) | INFO: Logger set to DEBUG
+2022/01/16 (16:34:34) | DEBUG: Using locale en_US.UTF-8
+2022/01/16 (16:34:34) | INFO: Running on /dev/pts/3
+2022/01/16 (16:34:34) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/16 (21:26:24) | INFO: Quitting! Runtime: 04:51:50
+
+2022/01/17 (13:25:52) | ===> btop++ v.1.1.4
+2022/01/17 (13:25:52) | INFO: Logger set to DEBUG
+2022/01/17 (13:25:52) | DEBUG: Using locale en_US.UTF-8
+2022/01/17 (13:25:52) | INFO: Running on /dev/pts/3
+2022/01/17 (13:25:52) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/17 (15:29:21) | ===> btop++ v.1.2.0
+2022/01/17 (15:29:21) | INFO: Logger set to DEBUG
+2022/01/17 (15:29:21) | DEBUG: Using locale en_US.UTF-8
+2022/01/17 (15:29:21) | INFO: Running on /dev/pts/2
+2022/01/17 (15:29:21) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/17 (15:31:11) | ===> btop++ v.1.2.0
+2022/01/17 (15:31:11) | INFO: Logger set to DEBUG
+2022/01/17 (15:31:11) | DEBUG: Using locale en_US.UTF-8
+2022/01/17 (15:31:11) | INFO: Running on /dev/pts/1
+2022/01/17 (15:31:11) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/17 (18:03:51) | DEBUG: Writing new config file
+2022/01/17 (18:03:51) | INFO: Quitting! Runtime: 02:32:40
+
+2022/01/17 (19:31:18) | ===> btop++ v.1.2.0
+2022/01/17 (19:31:18) | INFO: Logger set to DEBUG
+2022/01/17 (19:31:18) | DEBUG: Using locale en_US.UTF-8
+2022/01/17 (19:31:18) | INFO: Running on /dev/pts/3
+2022/01/17 (19:31:18) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/17 (20:04:05) | ===> btop++ v.1.2.0
+2022/01/17 (20:04:05) | INFO: Logger set to DEBUG
+2022/01/17 (20:04:05) | DEBUG: Using locale en_US.UTF-8
+2022/01/17 (20:04:05) | INFO: Running on /dev/pts/1
+2022/01/17 (20:04:05) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/17 (20:07:57) | INFO: Quitting! Runtime: 00:03:52
+
+2022/01/17 (20:16:42) | ===> btop++ v.1.2.0
+2022/01/17 (20:16:42) | INFO: Logger set to DEBUG
+2022/01/17 (20:16:42) | DEBUG: Using locale en_US.UTF-8
+2022/01/17 (20:16:42) | INFO: Running on /dev/pts/2
+2022/01/17 (20:16:42) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/19 (09:56:20) | ===> btop++ v.1.2.0
+2022/01/19 (09:56:20) | INFO: Logger set to DEBUG
+2022/01/19 (09:56:20) | DEBUG: Using locale en_US.UTF-8
+2022/01/19 (09:56:20) | INFO: Running on /dev/pts/3
+2022/01/19 (09:56:20) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/19 (09:56:29) | ===> btop++ v.1.2.0
+2022/01/19 (09:56:29) | INFO: Logger set to DEBUG
+2022/01/19 (09:56:29) | DEBUG: Using locale en_US.UTF-8
+2022/01/19 (09:56:29) | INFO: Running on /dev/pts/4
+2022/01/19 (09:56:29) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/19 (11:29:02) | ===> btop++ v.1.2.0
+2022/01/19 (11:29:02) | INFO: Logger set to DEBUG
+2022/01/19 (11:29:02) | DEBUG: Using locale en_US.UTF-8
+2022/01/19 (11:29:02) | INFO: Running on /dev/pts/2
+2022/01/19 (11:29:02) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/19 (14:46:52) | INFO: Quitting! Runtime: 03:17:50
+
+2022/01/20 (20:37:07) | ===> btop++ v.1.2.0
+2022/01/20 (20:37:07) | INFO: Logger set to DEBUG
+2022/01/20 (20:37:07) | DEBUG: Using locale en_US.UTF-8
+2022/01/20 (20:37:07) | INFO: Running on /dev/pts/3
+2022/01/20 (20:37:07) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/20 (21:51:43) | ===> btop++ v.1.2.0
+2022/01/20 (21:51:43) | INFO: Logger set to DEBUG
+2022/01/20 (21:51:43) | DEBUG: Using locale en_US.UTF-8
+2022/01/20 (21:51:43) | INFO: Running on /dev/pts/2
+2022/01/20 (21:51:43) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/20 (21:52:05) | DEBUG: Loading theme file: /usr/share/btop/themes/kyli0x.theme
+2022/01/20 (21:52:05) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/20 (21:52:05) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2022/01/20 (21:52:06) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/20 (21:52:06) | DEBUG: Loading theme file: /usr/share/btop/themes/kyli0x.theme
+2022/01/20 (21:52:07) | DEBUG: Loading theme file: /usr/share/btop/themes/greyscale.theme
+2022/01/20 (21:52:07) | DEBUG: Loading theme file: /usr/share/btop/themes/kyli0x.theme
+2022/01/20 (21:52:07) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/20 (21:52:08) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2022/01/20 (21:52:08) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/21 (11:28:06) | INFO: Quitting! Runtime: 14:50:59
+
+2022/01/22 (16:35:57) | ===> btop++ v.1.2.0
+2022/01/22 (16:35:57) | INFO: Logger set to DEBUG
+2022/01/22 (16:35:57) | DEBUG: Using locale en_US.UTF-8
+2022/01/22 (16:35:57) | INFO: Running on /dev/pts/2
+2022/01/22 (16:35:57) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/22 (16:43:10) | ===> btop++ v.1.2.0
+2022/01/22 (16:43:10) | INFO: Logger set to DEBUG
+2022/01/22 (16:43:10) | DEBUG: Using locale en_US.UTF-8
+2022/01/22 (16:43:10) | INFO: Running on /dev/pts/4
+2022/01/22 (16:43:10) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2022/01/22 (16:43:12) | INFO: Quitting! Runtime: 00:00:02
+2022/01/22 (19:15:42) | ERROR: Stall in Runner thread, restarting!
+
+2022/01/23 (11:51:48) | ===> btop++ v.1.2.0
+2022/01/23 (11:51:48) | INFO: Logger set to DEBUG
+2022/01/23 (11:51:48) | DEBUG: Using locale en_US.UTF-8
+2022/01/23 (11:51:48) | INFO: Running on /dev/pts/3
+2022/01/23 (11:51:48) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+
+2022/01/23 (14:13:20) | ===> btop++ v.1.2.0
+2022/01/23 (14:13:20) | INFO: Logger set to DEBUG
+2022/01/23 (14:13:20) | DEBUG: Using locale en_US.UTF-8
+2022/01/23 (14:13:20) | INFO: Running on /dev/pts/1
+2022/01/23 (14:13:26) | INFO: Quitting! Runtime: 00:00:06
+
+2022/01/23 (14:15:22) | ===> btop++ v.1.2.0
+2022/01/23 (14:15:22) | INFO: Logger set to DEBUG
+2022/01/23 (14:15:22) | DEBUG: Using locale en_US.UTF-8
+2022/01/23 (14:15:22) | INFO: Running on /dev/pts/1
+2022/01/23 (14:17:49) | DEBUG: Writing new config file
+2022/01/23 (14:17:49) | INFO: Quitting! Runtime: 02:26:01
+
+2022/01/23 (15:42:45) | ===> btop++ v.1.2.0
+2022/01/23 (15:42:45) | INFO: Logger set to DEBUG
+2022/01/23 (15:42:45) | DEBUG: Using locale en_US.UTF-8
+2022/01/23 (15:42:45) | INFO: Running on /dev/pts/3
+2022/01/23 (16:01:41) | DEBUG: Writing new config file
+2022/01/23 (16:01:41) | INFO: Quitting! Runtime: 00:18:56
+
+2022/01/25 (16:32:31) | ===> btop++ v.1.2.0
+2022/01/25 (16:32:31) | INFO: Logger set to DEBUG
+2022/01/25 (16:32:31) | DEBUG: Using locale en_US.UTF-8
+2022/01/25 (16:32:31) | INFO: Running on /dev/pts/2
+2022/01/25 (16:32:37) | INFO: Quitting! Runtime: 00:00:06
+
+2022/01/25 (19:58:00) | ===> btop++ v.1.2.0
+2022/01/25 (19:58:00) | INFO: Logger set to DEBUG
+2022/01/25 (19:58:00) | DEBUG: Using locale en_US.UTF-8
+2022/01/25 (19:58:00) | INFO: Running on /dev/pts/1
+2022/01/25 (21:35:31) | INFO: Quitting! Runtime: 01:37:31
+
+2022/01/26 (00:22:10) | ===> btop++ v.1.2.0
+2022/01/26 (00:22:10) | INFO: Logger set to DEBUG
+2022/01/26 (00:22:10) | DEBUG: Using locale en_US.UTF-8
+2022/01/26 (00:22:10) | INFO: Running on /dev/pts/5
+2022/01/26 (02:30:24) | INFO: Quitting! Runtime: 02:08:14
+
+2022/01/26 (19:39:25) | ===> btop++ v.1.2.0
+2022/01/26 (19:39:25) | INFO: Logger set to DEBUG
+2022/01/26 (19:39:25) | DEBUG: Using locale en_US.UTF-8
+2022/01/26 (19:39:25) | INFO: Running on /dev/pts/1
+2022/01/26 (19:39:31) | INFO: Quitting! Runtime: 00:00:06
+
+2022/01/27 (19:15:16) | ===> btop++ v.1.2.0
+2022/01/27 (19:15:16) | INFO: Logger set to DEBUG
+2022/01/27 (19:15:16) | DEBUG: Using locale en_US.UTF-8
+2022/01/27 (19:15:16) | INFO: Running on /dev/pts/1
+2022/01/27 (19:17:16) | INFO: Quitting! Runtime: 00:02:00
+
+2022/01/27 (22:02:51) | ===> btop++ v.1.2.0
+2022/01/27 (22:02:51) | INFO: Logger set to DEBUG
+2022/01/27 (22:02:51) | DEBUG: Using locale en_US.UTF-8
+2022/01/27 (22:02:51) | INFO: Running on /dev/pts/4
+
+2022/01/27 (22:15:53) | ===> btop++ v.1.2.0
+2022/01/27 (22:15:53) | INFO: Logger set to DEBUG
+2022/01/27 (22:15:53) | DEBUG: Using locale en_US.UTF-8
+2022/01/27 (22:15:53) | INFO: Running on /dev/pts/5
+2022/01/28 (09:49:22) | DEBUG: Writing new config file
+2022/01/28 (09:49:22) | INFO: Quitting! Runtime: 11:33:29
+2022/01/28 (09:49:24) | INFO: Quitting! Runtime: 11:46:33
+
+2022/01/29 (21:29:43) | ===> btop++ v.1.2.0
+2022/01/29 (21:29:43) | INFO: Logger set to DEBUG
+2022/01/29 (21:29:43) | DEBUG: Using locale en_US.UTF-8
+2022/01/29 (21:29:43) | INFO: Running on /dev/pts/2
+
+2022/01/30 (14:09:39) | ===> btop++ v.1.2.0
+2022/01/30 (14:09:39) | INFO: Logger set to DEBUG
+2022/01/30 (14:09:39) | DEBUG: Using locale en_US.UTF-8
+2022/01/30 (14:09:39) | INFO: Running on /dev/pts/4
+2022/01/30 (14:46:08) | INFO: Quitting! Runtime: 00:36:29
+
+2022/01/31 (21:12:53) | ===> btop++ v.1.2.0
+2022/01/31 (21:12:53) | INFO: Logger set to DEBUG
+2022/01/31 (21:12:53) | DEBUG: Using locale en_US.UTF-8
+2022/01/31 (21:12:53) | INFO: Running on /dev/pts/3
+
+2022/01/31 (22:37:06) | ===> btop++ v.1.2.0
+2022/01/31 (22:37:06) | INFO: Logger set to DEBUG
+2022/01/31 (22:37:06) | DEBUG: Using locale en_US.UTF-8
+2022/01/31 (22:37:06) | INFO: Running on /dev/pts/2
+
+2022/02/01 (17:46:23) | ===> btop++ v.1.2.0
+2022/02/01 (17:46:23) | INFO: Logger set to DEBUG
+2022/02/01 (17:46:23) | DEBUG: Using locale en_US.UTF-8
+2022/02/01 (17:46:23) | INFO: Running on /dev/pts/1
+2022/02/01 (19:54:58) | INFO: Quitting! Runtime: 02:08:35
+
+2022/02/01 (20:44:56) | ===> btop++ v.1.2.0
+2022/02/01 (20:44:56) | INFO: Logger set to DEBUG
+2022/02/01 (20:44:56) | DEBUG: Using locale en_US.UTF-8
+2022/02/01 (20:44:56) | INFO: Running on /dev/pts/1
+2022/02/01 (20:46:08) | INFO: Quitting! Runtime: 00:01:12
+
+2022/02/05 (19:21:22) | ===> btop++ v.1.2.0
+2022/02/05 (19:21:22) | INFO: Logger set to DEBUG
+2022/02/05 (19:21:22) | DEBUG: Using locale en_US.UTF-8
+2022/02/05 (19:21:22) | INFO: Running on /dev/pts/2
+2022/02/05 (19:25:47) | INFO: Quitting! Runtime: 00:04:25
+
+2022/02/05 (23:26:18) | ===> btop++ v.1.2.0
+2022/02/05 (23:26:18) | INFO: Logger set to DEBUG
+2022/02/05 (23:26:18) | DEBUG: Using locale en_US.UTF-8
+2022/02/05 (23:26:18) | INFO: Running on /dev/pts/2
+
+2022/02/05 (23:36:56) | ===> btop++ v.1.2.0
+2022/02/05 (23:36:56) | INFO: Logger set to DEBUG
+2022/02/05 (23:36:56) | DEBUG: Using locale en_US.UTF-8
+2022/02/05 (23:36:56) | INFO: Running on /dev/pts/3
+2022/02/06 (13:55:07) | INFO: Quitting! Runtime: 14:28:49
+
+2022/02/06 (20:02:03) | ===> btop++ v.1.2.0
+2022/02/06 (20:02:03) | INFO: Logger set to DEBUG
+2022/02/06 (20:02:03) | DEBUG: Using locale en_US.UTF-8
+2022/02/06 (20:02:03) | INFO: Running on /dev/pts/0
+2022/02/06 (20:02:09) | INFO: Quitting! Runtime: 00:00:06
+
+2022/02/06 (20:58:39) | ===> btop++ v.1.2.0
+2022/02/06 (20:58:39) | INFO: Logger set to DEBUG
+2022/02/06 (20:58:39) | DEBUG: Using locale en_US.UTF-8
+2022/02/06 (20:58:39) | INFO: Running on /dev/pts/0
+2022/02/06 (20:59:59) | INFO: Quitting! Runtime: 00:01:20
+
+2022/02/06 (21:00:59) | ===> btop++ v.1.2.0
+2022/02/06 (21:00:59) | INFO: Logger set to DEBUG
+2022/02/06 (21:00:59) | DEBUG: Using locale en_US.UTF-8
+2022/02/06 (21:00:59) | INFO: Running on /dev/pts/0
+2022/02/06 (21:01:16) | INFO: Quitting! Runtime: 00:00:17
+
+2022/02/09 (18:24:16) | ===> btop++ v.1.2.0
+2022/02/09 (18:24:16) | INFO: Logger set to DEBUG
+2022/02/09 (18:24:16) | DEBUG: Using locale en_US.UTF-8
+2022/02/09 (18:24:16) | INFO: Running on /dev/pts/2
+2022/02/09 (18:24:21) | INFO: Quitting! Runtime: 00:00:05
+
+2022/02/10 (14:20:39) | ===> btop++ v.1.2.0
+2022/02/10 (14:20:39) | INFO: Logger set to DEBUG
+2022/02/10 (14:20:39) | DEBUG: Using locale en_US.UTF-8
+2022/02/10 (14:20:39) | INFO: Running on /dev/pts/2
+2022/02/10 (14:39:11) | INFO: Quitting! Runtime: 00:18:32
+
+2022/02/11 (10:14:01) | ===> btop++ v.1.2.0
+2022/02/11 (10:14:01) | INFO: Logger set to DEBUG
+2022/02/11 (10:14:01) | DEBUG: Using locale en_US.UTF-8
+2022/02/11 (10:14:01) | INFO: Running on /dev/pts/1
+
+2022/02/11 (11:00:23) | ===> btop++ v.1.2.0
+2022/02/11 (11:00:23) | INFO: Logger set to DEBUG
+2022/02/11 (11:00:23) | DEBUG: Using locale en_US.UTF-8
+2022/02/11 (11:00:23) | INFO: Running on /dev/pts/1
+
+2022/02/11 (22:43:49) | ===> btop++ v.1.2.0
+2022/02/11 (22:43:49) | INFO: Logger set to DEBUG
+2022/02/11 (22:43:49) | DEBUG: Using locale en_US.UTF-8
+2022/02/11 (22:43:49) | INFO: Running on /dev/tty2
+2022/02/11 (22:43:49) | INFO: Real tty detected: setting 16 color mode and using tty friendly graph symbols
+
+2022/02/13 (13:55:52) | ===> btop++ v.1.2.0
+2022/02/13 (13:55:52) | INFO: Logger set to DEBUG
+2022/02/13 (13:55:52) | DEBUG: Using locale en_US.UTF-8
+2022/02/13 (13:55:52) | INFO: Running on /dev/pts/2
+
+2022/02/13 (18:22:59) | ===> btop++ v.1.2.0
+2022/02/13 (18:22:59) | INFO: Logger set to DEBUG
+2022/02/13 (18:22:59) | DEBUG: Using locale en_US.UTF-8
+2022/02/13 (18:22:59) | INFO: Running on /dev/pts/4
+
+2022/02/15 (18:02:45) | ===> btop++ v.1.2.0
+2022/02/15 (18:02:45) | INFO: Logger set to DEBUG
+2022/02/15 (18:02:45) | DEBUG: Using locale en_US.UTF-8
+2022/02/15 (18:02:45) | INFO: Running on /dev/pts/1
+2022/02/15 (18:03:27) | INFO: Quitting! Runtime: 00:00:42
+
+2022/02/15 (18:13:26) | ===> btop++ v.1.2.0
+2022/02/15 (18:13:26) | INFO: Logger set to DEBUG
+2022/02/15 (18:13:26) | DEBUG: Using locale en_US.UTF-8
+2022/02/15 (18:13:26) | INFO: Running on /dev/pts/1
+
+2022/02/15 (22:11:36) | ===> btop++ v.1.2.0
+2022/02/15 (22:11:36) | INFO: Logger set to DEBUG
+2022/02/15 (22:11:36) | DEBUG: Using locale en_US.UTF-8
+2022/02/15 (22:11:36) | INFO: Running on /dev/pts/1
+
+2022/02/18 (01:11:42) | ===> btop++ v.1.2.0
+2022/02/18 (01:11:42) | INFO: Logger set to DEBUG
+2022/02/18 (01:11:42) | DEBUG: Using locale en_US.UTF-8
+2022/02/18 (01:11:42) | INFO: Running on /dev/pts/1
+2022/02/18 (10:43:41) | INFO: Quitting! Runtime: 09:31:59
+
+2022/02/18 (19:23:03) | ===> btop++ v.1.2.0
+2022/02/18 (19:23:03) | INFO: Logger set to DEBUG
+2022/02/18 (19:23:03) | DEBUG: Using locale en_US.UTF-8
+2022/02/18 (19:23:03) | INFO: Running on /dev/pts/2
+2022/02/18 (19:24:59) | INFO: Quitting! Runtime: 00:01:56
+
+2022/02/18 (19:25:23) | ===> btop++ v.1.2.0
+2022/02/18 (19:25:23) | INFO: Logger set to DEBUG
+2022/02/18 (19:25:23) | DEBUG: Using locale en_US.UTF-8
+2022/02/18 (19:25:23) | INFO: Running on /dev/pts/2
+2022/02/18 (19:25:40) | DEBUG: Writing new config file
+2022/02/18 (19:25:40) | INFO: Quitting! Runtime: 00:00:17
+
+2022/02/18 (20:20:24) | ===> btop++ v.1.2.0
+2022/02/18 (20:20:24) | INFO: Logger set to DEBUG
+2022/02/18 (20:20:24) | DEBUG: Using locale en_US.UTF-8
+2022/02/18 (20:20:24) | INFO: Running on /dev/pts/0
+2022/02/18 (20:20:58) | DEBUG: Writing new config file
+2022/02/18 (20:20:58) | INFO: Quitting! Runtime: 00:00:34
+
+2022/02/18 (23:31:59) | ===> btop++ v.1.2.0
+2022/02/18 (23:31:59) | INFO: Logger set to DEBUG
+2022/02/18 (23:31:59) | DEBUG: Using locale en_US.UTF-8
+2022/02/18 (23:31:59) | INFO: Running on /dev/pts/1
+2022/02/19 (17:30:14) | INFO: Quitting! Runtime: 17:58:15
+
+2022/02/19 (19:48:37) | ===> btop++ v.1.2.0
+2022/02/19 (19:48:37) | INFO: Logger set to DEBUG
+2022/02/19 (19:48:37) | DEBUG: Using locale en_US.UTF-8
+2022/02/19 (19:48:37) | INFO: Running on /dev/pts/1
+2022/02/19 (19:48:42) | INFO: Quitting! Runtime: 00:00:05
+
+2022/02/20 (11:18:46) | ===> btop++ v.1.2.0
+2022/02/20 (11:18:46) | INFO: Logger set to DEBUG
+2022/02/20 (11:18:46) | DEBUG: Using locale en_US.UTF-8
+2022/02/20 (11:18:46) | INFO: Running on /dev/pts/2
+
+2022/02/20 (13:46:18) | ===> btop++ v.1.2.0
+2022/02/20 (13:46:18) | INFO: Logger set to DEBUG
+2022/02/20 (13:46:18) | DEBUG: Using locale en_US.UTF-8
+2022/02/20 (13:46:18) | INFO: Running on /dev/pts/3
+2022/02/20 (20:09:55) | ERROR: Stall in Runner thread, restarting!
+2022/02/20 (20:10:59) | ERROR: Stall in Runner thread, restarting!
+2022/02/20 (20:13:13) | ERROR: Stall in Runner thread, restarting!
+2022/02/20 (20:13:37) | ERROR: Stall in Runner thread, restarting!
+2022/02/20 (20:15:38) | ERROR: Stall in Runner thread, restarting!
+
+2022/02/20 (20:16:54) | ===> btop++ v.1.2.0
+2022/02/20 (20:16:54) | INFO: Logger set to DEBUG
+2022/02/20 (20:16:54) | DEBUG: Using locale en_US.UTF-8
+2022/02/20 (20:16:54) | INFO: Running on /dev/pts/4
+2022/02/20 (21:07:28) | ERROR: Stall in Runner thread, restarting!
+2022/02/20 (21:08:57) | ERROR: Stall in Runner thread, restarting!
+
+2022/02/21 (10:45:52) | ===> btop++ v.1.2.0
+2022/02/21 (10:45:52) | INFO: Logger set to DEBUG
+2022/02/21 (10:45:52) | DEBUG: Using locale en_US.UTF-8
+2022/02/21 (10:45:52) | INFO: Running on /dev/pts/1
+
+2022/02/23 (11:49:59) | ===> btop++ v.1.2.0
+2022/02/23 (11:49:59) | INFO: Logger set to DEBUG
+2022/02/23 (11:49:59) | DEBUG: Using locale en_US.UTF-8
+2022/02/23 (11:49:59) | INFO: Running on /dev/pts/3
+2022/02/23 (13:54:05) | INFO: Quitting! Runtime: 02:04:06
+
+2022/02/23 (13:54:09) | ===> btop++ v.1.2.0
+2022/02/23 (13:54:09) | INFO: Logger set to DEBUG
+2022/02/23 (13:54:09) | DEBUG: Using locale en_US.UTF-8
+2022/02/23 (13:54:09) | INFO: Running on /dev/pts/3
+2022/02/23 (14:00:34) | INFO: Quitting! Runtime: 00:06:25
+
+2022/02/23 (17:06:01) | ===> btop++ v.1.2.0
+2022/02/23 (17:06:01) | INFO: Logger set to DEBUG
+2022/02/23 (17:06:01) | DEBUG: Using locale en_US.UTF-8
+2022/02/23 (17:06:01) | INFO: Running on /dev/pts/2
+2022/02/23 (17:06:46) | INFO: Quitting! Runtime: 00:00:45
+
+2022/02/27 (19:39:29) | ===> btop++ v.1.2.0
+2022/02/27 (19:39:29) | INFO: Logger set to DEBUG
+2022/02/27 (19:39:29) | DEBUG: Using locale en_US.UTF-8
+2022/02/27 (19:39:29) | INFO: Running on /dev/pts/2
+2022/02/27 (19:41:11) | INFO: Quitting! Runtime: 00:01:42
+
+2022/02/27 (19:46:46) | ===> btop++ v.1.2.0
+2022/02/27 (19:46:46) | INFO: Logger set to DEBUG
+2022/02/27 (19:46:46) | DEBUG: Using locale en_US.UTF-8
+2022/02/27 (19:46:46) | INFO: Running on /dev/tty2
+2022/02/27 (19:46:46) | INFO: Real tty detected: setting 16 color mode and using tty friendly graph symbols
+2022/02/27 (19:46:57) | INFO: Quitting! Runtime: 00:00:11
+
+2022/02/27 (23:18:49) | ===> btop++ v.1.2.0
+2022/02/27 (23:18:49) | INFO: Logger set to DEBUG
+2022/02/27 (23:18:49) | DEBUG: Using locale en_US.UTF-8
+2022/02/27 (23:18:49) | INFO: Running on /dev/pts/3
+2022/02/27 (23:20:48) | INFO: Quitting! Runtime: 00:01:59
+
+2022/02/28 (10:42:17) | ===> btop++ v.1.2.0
+2022/02/28 (10:42:17) | INFO: Logger set to DEBUG
+2022/02/28 (10:42:17) | DEBUG: Using locale en_US.UTF-8
+2022/02/28 (10:42:17) | INFO: Running on /dev/pts/5
+
+2022/02/28 (12:01:02) | ===> btop++ v.1.2.0
+2022/02/28 (12:01:02) | INFO: Logger set to DEBUG
+2022/02/28 (12:01:02) | DEBUG: Using locale en_US.UTF-8
+2022/02/28 (12:01:02) | INFO: Running on /dev/pts/1
+
+2022/03/05 (18:36:21) | ===> btop++ v.1.2.0
+2022/03/05 (18:36:21) | INFO: Logger set to DEBUG
+2022/03/05 (18:36:21) | DEBUG: Using locale en_US.UTF-8
+2022/03/05 (18:36:21) | INFO: Running on /dev/pts/2
+2022/03/05 (18:36:57) | DEBUG: Writing new config file
+2022/03/05 (18:36:57) | INFO: Quitting! Runtime: 00:00:36
+
+2022/03/05 (18:37:44) | ===> btop++ v.1.2.0
+2022/03/05 (18:37:44) | INFO: Logger set to DEBUG
+2022/03/05 (18:37:44) | DEBUG: Using locale en_US.UTF-8
+2022/03/05 (18:37:44) | INFO: Running on /dev/pts/1
+2022/03/05 (19:04:23) | DEBUG: Writing new config file
+2022/03/05 (19:04:23) | INFO: Quitting! Runtime: 00:26:39
+
+2022/03/06 (15:26:05) | ===> btop++ v.1.2.0
+2022/03/06 (15:26:05) | INFO: Logger set to DEBUG
+2022/03/06 (15:26:05) | DEBUG: Using locale en_US.UTF-8
+2022/03/06 (15:26:05) | INFO: Running on /dev/pts/2
+2022/03/06 (16:21:15) | INFO: Quitting! Runtime: 00:55:10
+
+2022/03/06 (16:52:05) | ===> btop++ v.1.2.0
+2022/03/06 (16:52:05) | INFO: Logger set to DEBUG
+2022/03/06 (16:52:05) | DEBUG: Using locale en_US.UTF-8
+2022/03/06 (16:52:05) | INFO: Running on /dev/pts/2
+
+2022/03/06 (21:51:55) | ===> btop++ v.1.2.0
+2022/03/06 (21:51:55) | INFO: Logger set to DEBUG
+2022/03/06 (21:51:55) | DEBUG: Using locale en_US.UTF-8
+2022/03/06 (21:51:55) | INFO: Running on /dev/pts/4
+
+2022/03/06 (23:52:10) | ===> btop++ v.1.2.0
+2022/03/06 (23:52:10) | INFO: Logger set to DEBUG
+2022/03/06 (23:52:10) | DEBUG: Using locale en_US.UTF-8
+2022/03/06 (23:52:10) | INFO: Running on /dev/pts/4
+2022/03/06 (23:59:35) | DEBUG: Writing new config file
+2022/03/06 (23:59:35) | INFO: Quitting! Runtime: 00:07:25
+
+2022/03/08 (20:16:19) | ===> btop++ v.1.2.0
+2022/03/08 (20:16:19) | INFO: Logger set to DEBUG
+2022/03/08 (20:16:19) | DEBUG: Using locale en_US.UTF-8
+2022/03/08 (20:16:19) | INFO: Running on /dev/pts/4
+2022/03/08 (20:16:25) | INFO: Quitting! Runtime: 00:00:06
+
+2022/03/09 (10:26:23) | ===> btop++ v.1.2.0
+2022/03/09 (10:26:23) | INFO: Logger set to DEBUG
+2022/03/09 (10:26:23) | DEBUG: Using locale en_US.UTF-8
+2022/03/09 (10:26:23) | INFO: Running on /dev/pts/1

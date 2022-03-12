@@ -1,2 +1,3 @@
 # configs
-private repo for all configs I manage
+
+Basically a dotfile repo but not just all dotfiles and no cool script to set them up.
