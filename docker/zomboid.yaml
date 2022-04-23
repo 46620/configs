@@ -1,0 +1,45 @@
+version: "3"
+
+services:
+  zomboid-server:
+    image: renegademaster/zomboid-dedicated-server:1.6.0
+    container_name: Zomboid
+    restart: "unless-stopped"
+    user: "1003:1003"
+    environment:
+      - "ADMIN_PASSWORD=cum45"
+      - "ADMIN_USERNAME=admin"
+      - "AUTOSAVE_INTERVAL=15"
+      - "BIND_IP=0.0.0.0"
+      - "GAME_PORT=8766"
+      - "GAME_VERSION=public"
+      - "MAX_PLAYERS=16"
+      - "MAX_RAM=4096m"
+      - "MOD_NAMES=Vine-Boom-Alert;82oshkoshM911;AnaLGiNs_RenewableFoodResources;Brita_2;EliazBetterArmorsClothings;improvedhairmenu;MapSymbolSizeSlider;wringclothes;DRK_1;Smoker;NoLighterNeeded;MCM;BecomeDesensitized;BedfordFalls;BetterFlashlights;BogaPizza;MoreCLR_desc4mood;isoContainers;EGNHInuman;FireBook;fuelsideindicator;iMeds;Ladders;MakePaths;Otr;OtrSR;myclothinguimod;RainWash;RebalancedPropMoving;FortKnoxRoad;sleeponit;snowiswater;ClothingBasedOnOccupation;SpnCloth;TheyKnew;P4TidyUpMeister;VDK;DaszhVehicleChime;WorkingMasks;Nopanicsound;67commando;Chair;85merc;86oshkoshP19A;87cruiser;88golfMk2;88jettaMk2;89diplomat;89def110;89def90;90niva;91range;92amgeneralM998;92prelude;95caprice;AirsoftGuns;BanjoItemKitTraitsFixed;BWL;2116762736;BWM;BCGTools;TurboEsprit;CheeseCar;DrivingSkill;LactoseCrossbow;DylansTiles;EasyConfigChucked;ExpandedHelicopterEvents;ExplorerTrait;ExtraMapSymbols;ExtraMapSymbolsUI;DKRK;FixedCraftableAxes;GamblerProfession;GasAndWaterInContainers;GlassRepair;guncleaning;Hydrocraft;lrdisco1;M113_APC_by_Papa_Chad;MG420;873020165;MapLegendUI;MilitaryClothingChange;MilitaryClothingChangeEliaz;VAM;NukaColaCollection;OutTheWindow;PMCProfession;ReducedPlank;RepairAnyClothes;RuggedRecipes;SLEO;SNK;tctlBags;ToyotaHilux4x4;TrueFilter;VehiclePartsRepair;pzwin1873;ZConomy;MDXelgorcampaxe;TurksLastingJarredFoodstuffs;rSex;tkTiles_01;EerieCountry;PlayersOnMap;ModManager;jumpThroughWindows;ItemTweakerAPI;FH;Arsenal(26)GunFighter;modoptions;AAApoc;agrotsar;tsarslib;Brita;AB&C+Brita;2612617201;rSemiTruck;RotatorsLib;YakiHS;TheWorkshop(new version);SpnClothVanilla;ScrapWeapons(new version);ScrapArmor(new version);ScrapGuns(new version);RepairAnySWAT;RepairAnyBrita;RepairAnyAuthenticZ;ProfessionFramework;ModManagerServer"
+      - "MOD_WORKSHOP_IDS=2679417924;2618213077;2688622178;2460154811;2594390768;2732662310;2734705913;2696083206;2611652130;2026976958;2714198296;2762018937;2627877543;522891356;2766033079;2675786278;2763647806;2625625421;2673329292;2634478805;2595249356;2616986064;2709866494;2737665235;2759027882;926737806;2603239477;2695471997;2657661246;2699828474;2595785944;2673713236;2704811006;2747517727;2684285534;2725378876;2769706949;2689863681;2742869038;2760742937;2766735350;2478247379;2664883430;2469388752;2566953935;2489148104;2516123638;2522173579;2717047522;2441990998;2443275640;2422681177;2409333430;2642541073;2687038187;2709006393;2079475791;2689282871;2540395105;2116762736;2099146406;2423906082;2740961803;2489356603;2721945297;1901390863;2599752664;2529746725;2458631365;2760950740;2701170568;2701170568;2753494066;2684955236;2761937687;2759865696;2734855468;2026821879;2081538550;2761836419;2705655822;2512269340;873020165;2710167561;2656825728;2656825728;2581249482;2613274731;2659216714;2761796971;1484339564;2142622992;2715579154;2616752828;2406443199;2713561416;2741910328;2745388209;1558779191;2729190798;1660388043;2748133073;2681257693;2681257693;2384329562;1254546530;2732804047;2694448564;2688884240;566115016;2447729538;2297098490;2169435993;2026187681;2728257015;2392709985;2200148440;2693009051;2612617201;2759339330;2732594572;2761200458;2680473910;2684285534;2122265954;2658619264;2125659488;2142622992;2142622992;2142622992;2142622992;2142622992;1343686691;2725216703"
+      - "NO_CHOWN_CONFIG_DIR=false"
+      - "NO_CHOWN_GAME_DIR=false"
+      - "PAUSE_ON_EMPTY=true"
+      - "PUBLIC_SERVER=false"
+      - "QUERY_PORT=16261"
+      - "RCON_PASSWORD=changeme_rcon"
+      - "RCON_PORT=27015"
+      - "SERVER_NAME=ZomboidServer"
+      - "SERVER_PASSWORD="
+      - "STEAM_VAC=true"
+      - "USE_STEAM=true"
+    ports:
+      - target: 8766
+        published: 8766
+        protocol: udp
+      - target: 16261
+        published: 16261
+        protocol: udp
+      - target: 27015
+        published: 27015
+        protocol: tcp
+    volumes:
+      - /opt/games/Zomboid/ZomboidDedicatedServer:/home/steam/ZomboidDedicatedServer
+      - /opt/games/Zomboid/ZomboidConfig:/home/steam/Zomboid/
+    cap_drop:
+      - ALL

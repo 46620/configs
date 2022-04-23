@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  airsonic-advanced:
+    container_name: airsonic-advanced
+    image: airsonicadvanced/airsonic-advanced:edge-latest
+    restart: unless-stopped
+    ports: 
+      - 4040:4040
+      - 4041:4041 #UPnp
+    environment:
+      - TZ=America/New_York
+      - JAVA_OPTS=-Dserver.forward-headers-strategy=native
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - /media/Music:/var/music
+      - /opt/airsonic:/var/airsonic
+      - /opt/airsonic/playlists:/var/playlists
+      - /opt/airsonic/podcasts:/var/podcasts

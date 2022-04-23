@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  satisfactory:
+      hostname: 'satisfactory-server'
+      image: 'wolveix/satisfactory-server:latest'
+      container_name: Satisfactory
+      ports:
+          - '7777:7777/udp'
+          - '15000:15000/udp'
+          - '15777:15777/udp'
+      volumes:
+          - '/opt/games/Satisfactory:/config'
+      environment:
+          - MAXPLAYERS=4
+          - PGID=1003
+          - PUID=1003
+          - STEAMBETA=false
+          - SERVERIP=0.0.0.0
+      restart: unless-stopped

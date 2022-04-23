@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    container_name: Minecraft
+    ports:
+      - 25565:25565
+      - 19132:19132
+      - 24454:24454
+    environment:
+      EULA: "TRUE"
+      TYPE: "PAPER"
+      USE_AIKAR_FLAGS: "true"
+      EXEC_DIRECTLY: "true"
+      MEMORY: "4G"
+      UID: "1003"
+      GID: "1003"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      # attach a directory relative to the directory containing this compose file
+      - /opt/games/Minecraft:/data

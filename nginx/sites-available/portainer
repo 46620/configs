@@ -1,0 +1,48 @@
+server {
+    server_name portainer.46620.moe;
+    listen 443 ssl;
+    ssl_certificate /etc/letsencrypt/live/46620.moe-0002/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/46620.moe-0002/privkey.pem; # managed by Certbot
+
+
+    location / {
+        proxy_pass https://127.0.0.1:9443;
+        add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" always;
+	    add_header X-Xss-Protection "1; mode=block" always;
+	    add_header X-Content-Type-Options "nosniff" always;
+	    add_header X-Frame-Options "SAMEORIGIN" always;
+	    proxy_hide_header X-Powered-By;
+	    add_header 'Referrer-Policy' 'no-referrer';
+        client_max_body_size 0;
+    }
+
+    if ($scheme != "https") {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+    if ($host != "portainer.46620.moe") {
+        return 403;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+server {
+    if ($host = portainer.46620.moe) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    server_name portainer.46620.moe;
+    listen 80;
+    return 404; # managed by Certbot
+
+
+}

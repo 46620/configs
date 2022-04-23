@@ -1,0 +1,40 @@
+server {
+
+    root /var/www/dl;
+
+    index index.php;
+
+    server_name dl.46620.moe;
+    server_name_in_redirect off;
+    listen 443 ssl;
+    ssl_certificate /etc/letsencrypt/live/46620.moe-0002/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/46620.moe-0002/privkey.pem; # managed by Certbot
+
+    location / {
+        autoindex on;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php8.1-fpm.sock; 
+    }
+
+    if ($scheme != "https") {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+    if ($host != "dl.46620.moe") {
+        return 403;
+    }
+
+}
+
+server {
+    if ($host = dl.46620.moe) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+    server_name dl.46620.moe;
+    listen 80;
+    return 404; # managed by Certbot
+}
