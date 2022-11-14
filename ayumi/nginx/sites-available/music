@@ -23,19 +23,12 @@ server {
           client_max_body_size 0;
     }
     listen 443 ssl;
-    ssl_certificate /etc/letsencrypt/live/46620.moe-0002/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/46620.moe-0002/privkey.pem; # managed by Certbot
-
 
     if ($scheme != "https") {
         return 301 https://$host$request_uri;
     } # managed by Certbot
-
-
-
-
-
-
+    ssl_certificate /etc/letsencrypt/live/46620.moe-0001/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/46620.moe-0001/privkey.pem; # managed by Certbot
 
 }
 
@@ -44,11 +37,8 @@ server {
         return 301 https://$host$request_uri;
     } # managed by Certbot
 
-
     server_name music.46620.moe;
 
     listen 80;
     return 404; # managed by Certbot
-
-
 }

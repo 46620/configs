@@ -1,0 +1,19 @@
+version: '3.6'
+services:
+  web:
+    image: 'gitlab/gitlab-ce:latest'
+    restart: always
+    hostname: 'booba.tech'
+    environment:
+      GITLAB_OMNIBUS_CONFIG:
+        external_url 'https://booba.tech'
+        # Add any other gitlab.rb configuration here, each on its own line
+    ports:
+      - '8:80'
+      - '6:443'
+      - '223:22'
+    volumes:
+      - '/opt/gitlab/config:/etc/gitlab'
+      - '/opt/gitlab/logs:/var/log/gitlab'
+      - '/opt/gitlab/data:/var/opt/gitlab'
+    shm_size: '256m'

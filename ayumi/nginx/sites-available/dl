@@ -1,22 +1,22 @@
 server {
-
     root /var/www/dl;
-
-    index index.php;
-
+    index index.html;
     server_name dl.46620.moe;
     server_name_in_redirect off;
     listen 443 ssl;
-    ssl_certificate /etc/letsencrypt/live/46620.moe-0002/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/46620.moe-0002/privkey.pem; # managed by Certbot
 
     location / {
-        autoindex on;
-    }
-
-    location ~ \.php$ {
-        include snippets/fastcgi-php.conf;
-        fastcgi_pass unix:/run/php/php8.1-fpm.sock; 
+	autoindex off;
+	fancyindex on;
+	fancyindex_localtime on;
+	fancyindex_exact_size off;
+	fancyindex_header "/Nginx-Fancyindex-Theme-dark/header.html";
+	fancyindex_footer "/Nginx-Fancyindex-Theme-dark/footer.html";
+	fancyindex_ignore "josh.zip" "BGDC.zip"; # Ignored files will not show up in the directory listing, but will still be public.
+	fancyindex_ignore "Nginx-Fancyindex-Theme-dark"; # Making sure folder where files are don't show up in the listing.
+	# Warning: if you use an old version of ngx-fancyindex, comment the last line if you
+	# encounter a bug. See https://github.com/Naereen/Nginx-Fancyindex-Theme/issues/10
+	fancyindex_name_length 255; # Maximum file name length in bytes, change as you like.
     }
 
     if ($scheme != "https") {
@@ -26,6 +26,8 @@ server {
     if ($host != "dl.46620.moe") {
         return 403;
     }
+    ssl_certificate /etc/letsencrypt/live/46620.moe-0001/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/46620.moe-0001/privkey.pem; # managed by Certbot
 
 }
 

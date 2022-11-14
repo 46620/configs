@@ -1,0 +1,43 @@
+server {
+    server_name ci.46620.moe;
+
+    location / {
+            proxy_pass http://127.0.0.1:46620;
+            add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" always;
+            add_header X-Xss-Protection "1; mode=block" always;
+            add_header X-Content-Type-Options "nosniff" always;
+            add_header X-Frame-Options "SAMEORIGIN" always;
+            proxy_hide_header X-Powered-By;
+            add_header 'Referrer-Policy' 'no-referrer';
+            client_max_body_size 0;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+            proxy_set_header X-Forwarded-Protocol $scheme;
+            proxy_set_header X-Forwarded-Host $http_host;
+    }
+
+    if ($host != "ci.46620.moe") {
+        return 403;
+    }
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/46620.moe-0001/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/46620.moe-0001/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+}
+
+server {
+    if ($host = ci.46620.moe) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+    server_name ci.46620.moe;
+
+    listen 80;
+    return 404; # managed by Certbot
+
+
+}
