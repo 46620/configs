@@ -1,44 +1,12 @@
 version: '3.4'
 
 services:
-  vanilla:
+  connor-paper:
+    container_name: connor_paper
     image: itzg/minecraft-server
     environment:
       EULA: "TRUE"
       TYPE: PAPER
-      USE_AIKAR_FLAGS: "TRUE"
-      GUI: "FALSE"
-      MEMORY: "4G"
-      USER_UID: "1000"
-      USER_GID: "1000"
-    tty: true
-    stdin_open: true
-    restart: unless-stopped
-    volumes:
-      - /opt/games/minecraft/vanilla:/data
-  tekxit:
-    image: itzg/minecraft-server:java8
-    environment:
-      EULA: "TRUE"
-      TYPE: FORGE
-      VERSION: "1.12.2"
-      FORGEVERSION: "14.23.5.2860"
-      #USE_AIKAR_FLAGS: "TRUE"
-      GUI: "FALSE"
-      MEMORY: "10G"
-      USER_UID: "1000"
-      USER_GID: "1000"
-    tty: true
-    stdin_open: true
-    restart: unless-stopped
-    volumes:
-      - /opt/games/minecraft/tekxit:/data
-  josh:
-    image: itzg/minecraft-server
-    environment:
-      EULA: "TRUE"
-      VERSION: "1.19.1"
-      TYPE: FABRIC
       USE_AIKAR_FLAGS: "TRUE"
       GUI: "FALSE"
       MEMORY: "5G"
@@ -48,25 +16,59 @@ services:
     stdin_open: true
     restart: unless-stopped
     volumes:
-      - /opt/games/minecraft/josh:/data
-  kate:
-    image: itzg/minecraft-server:java8
+      - /opt/games/Minecraft/Connor-Paper:/data
+  josh-fabric:
+    container_name: josh_fabric
+    image: itzg/minecraft-server
     environment:
-      EULA: "TRUE"
-      TYPE: FORGE
-      VERSION: "1.12.2"
-      FORGEVERSION: "14.23.5.2860"
-      USE_AIKAR_FLAGS: "TRUE"
+      EULA: true
+      TYPE: FABRIC
+      VERSION: 1.19.1
+      USE_AIKAR_FLAGS: "FALSE"
       GUI: "FALSE"
-      MEMORY: "4G"
+      MEMORY: "7G"
       USER_UID: "1000"
       USER_GID: "1000"
     tty: true
     stdin_open: true
     restart: unless-stopped
     volumes:
-      - /opt/games/minecraft/forge:/data
+      - /opt/games/Minecraft/Josh-Fabric:/data
+  kevin-paper:
+    container_name: kevin_paper
+    image: itzg/minecraft-server
+    environment:
+      EULA: "TRUE"
+      TYPE: PAPER
+      USE_AIKAR_FLAGS: "TRUE"
+      GUI: "FALSE"
+      MEMORY: "5G"
+      USER_UID: "1000"
+      USER_GID: "1000"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      - /opt/games/Minecraft/Kevin-Paper:/data
+  ben-pixelmon:
+    container_name: ben_pixelmon
+    image: itzg/minecraft-server:java8
+    environment:
+      EULA: "TRUE"
+      TYPE: AUTO_CURSEFORGE
+      CF_SLUG: the-pixelmon-modpack
+      CF_API_KEY: "$2a$10$7jvx8aOBdL46bTZ65muK1e7AJQXJ1mesHdjK7boUSXbpvoe3Io8Le"
+      USE_AIKAR_FLAGS: "TRUE"
+      MEMORY: "20G"
+      USER_UID: "1000"
+      USER_GID: "1000"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      - /opt/games/Minecraft/Ben-Pixelmon:/data
   router:
+    container_name: mc_router
     image: ${MC_ROUTER_IMAGE:-itzg/mc-router}
     restart: unless-stopped
     environment:
@@ -76,4 +78,4 @@ services:
       - 25565:25565
       # bind the API port to only loopback to avoid external exposure
       - 127.0.0.1:25564:25564
-    command: --mapping=[REDACTED]=vanilla:25565,[REDACTED]=kate:25565,[REDACTED]=josh:25565,[REDACTED]=tekxit:25565
+    command: --mapping=[REDACTED]=connor-paper:25565,[REDACTED]=josh-fabric:25565,[REDACTED]=kevin-paper:25565,[REDACTED]=ben-pixelmon:25565
