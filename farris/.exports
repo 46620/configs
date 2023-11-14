@@ -9,3 +9,4 @@ eval "$(pyenv init --path)"
 export PATH=/home/mia/.local/bin:$PATH
 eval "$(pyenv init -)"
 MANGOHUD=1
+source /usr/share/nvm/init-nvm.sh
