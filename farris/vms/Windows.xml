@@ -8,7 +8,7 @@
   </metadata>
   <memory unit="KiB">8388608</memory>
   <currentMemory unit="KiB">8388608</currentMemory>
-  <vcpu placement="static">10</vcpu>
+  <vcpu placement="static">12</vcpu>
   <cputune>
     <vcpupin vcpu="0" cpuset="1"/>
     <vcpupin vcpu="1" cpuset="7"/>
@@ -20,6 +20,8 @@
     <vcpupin vcpu="7" cpuset="10"/>
     <vcpupin vcpu="8" cpuset="5"/>
     <vcpupin vcpu="9" cpuset="11"/>
+    <vcpupin vcpu="10" cpuset="6"/>
+    <vcpupin vcpu="11" cpuset="12"/>
   </cputune>
   <sysinfo type="smbios">
     <bios>
@@ -67,7 +69,7 @@
     <ioapic driver="kvm"/>
   </features>
   <cpu mode="host-passthrough" check="none" migratable="on">
-    <topology sockets="1" dies="1" cores="5" threads="2"/>
+    <topology sockets="1" dies="1" cores="6" threads="2"/>
     <cache mode="passthrough"/>
     <feature policy="disable" name="hypervisor"/>
     <feature policy="require" name="invtsc"/>
