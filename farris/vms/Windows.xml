@@ -1,13 +1,13 @@
 <domain type="kvm">
-  <name>Windows</name>
-  <uuid>e418056b-3c6f-45d3-a3a8-3aae3918dd9e</uuid>
+  <name>win11</name>
+  <uuid>51e96f60-a616-45b0-a127-6882177f5ff0</uuid>
   <metadata>
     <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
-      <libosinfo:os id="http://microsoft.com/win/10"/>
+      <libosinfo:os id="http://microsoft.com/win/11"/>
     </libosinfo:libosinfo>
   </metadata>
-  <memory unit="KiB">16785408</memory>
-  <currentMemory unit="KiB">16785408</currentMemory>
+  <memory unit="KiB">8388608</memory>
+  <currentMemory unit="KiB">8388608</currentMemory>
   <vcpu placement="static">10</vcpu>
   <cputune>
     <vcpupin vcpu="0" cpuset="1"/>
@@ -21,10 +21,22 @@
     <vcpupin vcpu="8" cpuset="5"/>
     <vcpupin vcpu="9" cpuset="11"/>
   </cputune>
-  <os>
-    <type arch="x86_64" machine="pc-q35-6.2">hvm</type>
-    <loader readonly="yes" type="pflash">/usr/share/edk2-ovmf/x64/OVMF_CODE.fd</loader>
-    <nvram>/var/lib/libvirt/qemu/nvram/Windows_VARS.fd</nvram>
+  <sysinfo type="smbios">
+    <bios>
+      <entry name="vendor">American Megatrends International, LLC.</entry>
+      <entry name="version">F16e</entry>
+      <entry name="date">07/18/2023</entry>
+    </bios>
+  </sysinfo>
+  <os firmware="efi">
+    <type arch="x86_64" machine="pc-q35-8.1">hvm</type>
+    <firmware>
+      <feature enabled="no" name="enrolled-keys"/>
+      <feature enabled="yes" name="secure-boot"/>
+    </firmware>
+    <loader readonly="yes" secure="yes" type="pflash">/usr/share/edk2/x64/OVMF_CODE.secboot.4m.fd</loader>
+    <nvram template="/usr/share/edk2/x64/OVMF_VARS.4m.fd">/var/lib/libvirt/qemu/nvram/win11_VARS.fd</nvram>
+    <smbios mode="sysinfo"/>
   </os>
   <features>
     <acpi/>
@@ -36,10 +48,16 @@
       <vpindex state="on"/>
       <runtime state="on"/>
       <synic state="on"/>
-      <stimer state="on"/>
+      <stimer state="on">
+        <direct state="on"/>
+      </stimer>
       <reset state="on"/>
       <vendor_id state="on" value="cum fard"/>
       <frequencies state="on"/>
+      <reenlightenment state="on"/>
+      <tlbflush state="on"/>
+      <ipi state="on"/>
+      <evmcs state="off"/>
     </hyperv>
     <kvm>
       <hidden state="on"/>
@@ -52,6 +70,8 @@
     <topology sockets="1" dies="1" cores="5" threads="2"/>
     <cache mode="passthrough"/>
     <feature policy="disable" name="hypervisor"/>
+    <feature policy="require" name="invtsc"/>
+    <feature policy="require" name="topoext"/>
   </cpu>
   <clock offset="localtime">
     <timer name="pit" tickpolicy="delay"/>
@@ -71,7 +91,7 @@
     <emulator>/usr/bin/qemu-system-x86_64</emulator>
     <disk type="file" device="disk">
       <driver name="qemu" type="qcow2" discard="unmap"/>
-      <source file="/var/lib/libvirt/images/win10.qcow2"/>
+      <source file="/var/lib/libvirt/images/win11.qcow2"/>
       <target dev="vda" bus="virtio"/>
       <boot order="2"/>
       <address type="pci" domain="0x0000" bus="0x04" slot="0x00" function="0x0"/>
@@ -150,15 +170,6 @@
       <target chassis="14" port="0x1d"/>
       <address type="pci" domain="0x0000" bus="0x00" slot="0x03" function="0x5"/>
     </controller>
-    <controller type="pci" index="15" model="pcie-root-port">
-      <model name="pcie-root-port"/>
-      <target chassis="15" port="0x1e"/>
-      <address type="pci" domain="0x0000" bus="0x00" slot="0x03" function="0x6"/>
-    </controller>
-    <controller type="pci" index="16" model="pcie-to-pci-bridge">
-      <model name="pcie-pci-bridge"/>
-      <address type="pci" domain="0x0000" bus="0x05" slot="0x00" function="0x0"/>
-    </controller>
     <controller type="sata" index="0">
       <address type="pci" domain="0x0000" bus="0x00" slot="0x1f" function="0x2"/>
     </controller>
@@ -166,7 +177,7 @@
       <address type="pci" domain="0x0000" bus="0x03" slot="0x00" function="0x0"/>
     </controller>
     <interface type="network">
-      <mac address="52:54:00:10:39:9c"/>
+      <mac address="52:54:00:ee:a4:04"/>
       <source network="default"/>
       <model type="virtio"/>
       <address type="pci" domain="0x0000" bus="0x01" slot="0x00" function="0x0"/>
@@ -184,13 +195,7 @@
       <address type="virtio-serial" controller="0" bus="0" port="1"/>
     </channel>
     <input type="mouse" bus="ps2"/>
-    <input type="keyboard" bus="virtio">
-      <address type="pci" domain="0x0000" bus="0x0a" slot="0x00" function="0x0"/>
-    </input>
     <input type="keyboard" bus="ps2"/>
-    <tpm model="tpm-tis">
-      <backend type="emulator" version="2.0"/>
-    </tpm>
     <graphics type="spice" autoport="yes">
       <listen type="address"/>
       <image compression="off"/>
@@ -200,43 +205,18 @@
     </sound>
     <audio id="1" type="spice"/>
     <video>
-      <model type="none"/>
+      <model type="qxl" ram="65536" vram="65536" vgamem="16384" heads="1" primary="yes"/>
+      <address type="pci" domain="0x0000" bus="0x00" slot="0x01" function="0x0"/>
     </video>
-    <hostdev mode="subsystem" type="pci" managed="yes">
-      <source>
-        <address domain="0x0000" bus="0x03" slot="0x00" function="0x0"/>
-      </source>
-      <address type="pci" domain="0x0000" bus="0x06" slot="0x00" function="0x0"/>
-    </hostdev>
-    <hostdev mode="subsystem" type="pci" managed="yes">
-      <source>
-        <address domain="0x0000" bus="0x03" slot="0x00" function="0x1"/>
-      </source>
-      <address type="pci" domain="0x0000" bus="0x07" slot="0x00" function="0x0"/>
-    </hostdev>
-    <hostdev mode="subsystem" type="pci" managed="yes">
-      <source>
-        <address domain="0x0000" bus="0x03" slot="0x00" function="0x2"/>
-      </source>
-      <address type="pci" domain="0x0000" bus="0x08" slot="0x00" function="0x0"/>
-    </hostdev>
-    <hostdev mode="subsystem" type="pci" managed="yes">
-      <source>
-        <address domain="0x0000" bus="0x03" slot="0x00" function="0x3"/>
-      </source>
-      <address type="pci" domain="0x0000" bus="0x09" slot="0x00" function="0x0"/>
-    </hostdev>
-    <redirdev bus="usb" type="spicevmc">
-      <address type="usb" bus="0" port="1"/>
-    </redirdev>
     <redirdev bus="usb" type="spicevmc">
       <address type="usb" bus="0" port="2"/>
     </redirdev>
-    <memballoon model="none"/>
-    <shmem name="looking-glass">
-      <model type="ivshmem-plain"/>
-      <size unit="M">32</size>
-      <address type="pci" domain="0x0000" bus="0x10" slot="0x01" function="0x0"/>
-    </shmem>
+    <redirdev bus="usb" type="spicevmc">
+      <address type="usb" bus="0" port="3"/>
+    </redirdev>
+    <watchdog model="itco" action="reset"/>
+    <memballoon model="virtio">
+      <address type="pci" domain="0x0000" bus="0x05" slot="0x00" function="0x0"/>
+    </memballoon>
   </devices>
 </domain>
