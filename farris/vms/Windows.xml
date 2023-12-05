@@ -8,20 +8,30 @@
   </metadata>
   <memory unit="KiB">8388608</memory>
   <currentMemory unit="KiB">8388608</currentMemory>
-  <vcpu placement="static">12</vcpu>
+  <vcpu placement="static">22</vcpu>
   <cputune>
-    <vcpupin vcpu="0" cpuset="1"/>
-    <vcpupin vcpu="1" cpuset="7"/>
-    <vcpupin vcpu="2" cpuset="2"/>
-    <vcpupin vcpu="3" cpuset="8"/>
-    <vcpupin vcpu="4" cpuset="3"/>
-    <vcpupin vcpu="5" cpuset="9"/>
-    <vcpupin vcpu="6" cpuset="4"/>
-    <vcpupin vcpu="7" cpuset="10"/>
-    <vcpupin vcpu="8" cpuset="5"/>
-    <vcpupin vcpu="9" cpuset="11"/>
-    <vcpupin vcpu="10" cpuset="6"/>
-    <vcpupin vcpu="11" cpuset="12"/>
+    <vcpupin vcpu="0" cpuset="0"/>
+    <vcpupin vcpu="1" cpuset="12"/>
+    <vcpupin vcpu="2" cpuset="1"/>
+    <vcpupin vcpu="3" cpuset="13"/>
+    <vcpupin vcpu="4" cpuset="2"/>
+    <vcpupin vcpu="5" cpuset="14"/>
+    <vcpupin vcpu="6" cpuset="3"/>
+    <vcpupin vcpu="7" cpuset="15"/>
+    <vcpupin vcpu="8" cpuset="4"/>
+    <vcpupin vcpu="9" cpuset="16"/>
+    <vcpupin vcpu="10" cpuset="5"/>
+    <vcpupin vcpu="11" cpuset="17"/>
+    <vcpupin vcpu="12" cpuset="6"/>
+    <vcpupin vcpu="13" cpuset="18"/>
+    <vcpupin vcpu="14" cpuset="7"/>
+    <vcpupin vcpu="15" cpuset="19"/>
+    <vcpupin vcpu="16" cpuset="8"/>
+    <vcpupin vcpu="17" cpuset="20"/>
+    <vcpupin vcpu="18" cpuset="9"/>
+    <vcpupin vcpu="19" cpuset="21"/>
+    <vcpupin vcpu="20" cpuset="10"/>
+    <vcpupin vcpu="21" cpuset="22"/>
   </cputune>
   <sysinfo type="smbios">
     <bios>
@@ -55,6 +65,7 @@
     </firmware>
     <loader readonly="yes" secure="yes" type="pflash">/usr/share/edk2/x64/OVMF_CODE.secboot.4m.fd</loader>
     <nvram template="/usr/share/edk2/x64/OVMF_VARS.4m.fd">/var/lib/libvirt/qemu/nvram/win11_VARS.fd</nvram>
+    <bootmenu enable="no"/>
     <smbios mode="sysinfo"/>
   </os>
   <features>
@@ -71,7 +82,7 @@
         <direct state="on"/>
       </stimer>
       <reset state="on"/>
-      <vendor_id state="on" value="fuck"/>
+      <vendor_id state="on" value="cum fard"/>
       <frequencies state="on"/>
       <reenlightenment state="on"/>
       <tlbflush state="on"/>
@@ -86,7 +97,7 @@
     <ioapic driver="kvm"/>
   </features>
   <cpu mode="host-passthrough" check="none" migratable="on">
-    <topology sockets="1" dies="1" cores="6" threads="2"/>
+    <topology sockets="1" dies="1" cores="11" threads="2"/>
     <cache mode="passthrough"/>
     <feature policy="disable" name="hypervisor"/>
     <feature policy="require" name="invtsc"/>
